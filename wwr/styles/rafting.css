@@ -5,18 +5,13 @@
   /* Golden Yellow */
   --accent1-color: #003087;
   /* Deep River Blue */
-  /* --accent2-color: #1E5631;
-  Forest Green */
 
   /* ======== Fonts ======== */
   --heading-font: 'Bebas Neue', 'Impact', 'Arial Black', sans-serif;
   --body-font: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
 
-  /* Font Weights
-  --font-light: 300;
+  /* Font Weights */
   --font-regular: 400;
-  --font-medium: 500;
-  --font-bold: 700; */
 }
 
 * {
