@@ -30,6 +30,10 @@ header {
   grid-template-columns: 1fr 2fr;
 }
 
+.special_item {
+  justify-self: center;
+}
+
 nav ul {
   display: flex;
   justify-content: space-around;
