@@ -9,22 +9,39 @@
 }
 
 nav {
+  display: flex;
   background-color: darkblue;
   padding: 10px;
+  justify-content: space-around;
 }
 
 nav a {
   color: white;
   display: block;
-  padding: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
 }
 
 h1 {
   color: darkblue;
+  border-bottom: 1px solid darkblue;
+}
+
+div.grid {
+  display: grid;
+  align-items: center;
 }
 
 main {
+  grid-column: 2/3;
+  margin: 1rem;
+}
+
+.grid,
+header,
+footer {
   max-width: 840px;
+  margin: 0 auto;
 }
 
 aside {
@@ -33,6 +50,8 @@ aside {
   color: #333;
   text-align: center;
   position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 
 aside img {

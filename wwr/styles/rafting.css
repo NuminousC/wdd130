@@ -25,6 +25,74 @@ body {
   color: var(--accent1-color);
 }
 
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  /* Vertically centers everything */
+  padding: 1rem 2rem;
+}
+
+.history h2 {
+  text-align: center;
+}
+
+.history_layout {
+  display: grid;
+  grid-template-columns: 1.75fr 1.5fr 1.75fr;
+  align-items: center;
+}
+
+.history_layout img {
+  width: 240px;
+
+}
+
+.adventure_image_gallery h2 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.adventure_gallery_container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+}
+
+.adventure_gallery_container figcaption {
+  text-align: center;
+}
+
+.gallery_item img {
+  width: 120px;
+}
+
+nav ul li {
+  display: block;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  justify-content: center;
+  justify-items: right;
+  align-items: center;
+  padding-right: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
 header,
 main,
 footer {
