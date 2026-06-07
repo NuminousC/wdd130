@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 840px;
+  background-color: navy;
+  margin: 0 auto !important;
+}
+
+h1 {
+  margin: 0.5rem;
+  color: aliceblue;
+}
+
+form {
+  background-color: lightgrey;
+}
+
+input,
+textarea,
+select {
+  padding: 0.75rem;
+  display: block;
+  width: 400px;
+}
+
+button {
+  background-color: navy;
+  color: aliceblue;
+  display: block;
+  /* margin: 0 auto !important; */
+}
+
+/* Classes */
+
+.box {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid black / 10%;
+}
+
+.quiz-item {
+  border: none;
+}
