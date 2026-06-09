@@ -122,12 +122,15 @@ a {
   font-weight: var(--font-regular);
 }
 
-nav,
+nav {
+  margin: 16px;
+  padding: 8px;
+}
+
 p,
 section,
 article {
-  margin: 16px;
-  padding: 8px;
+  margin: 16px 0;
 }
 
 .socialmedia a {
